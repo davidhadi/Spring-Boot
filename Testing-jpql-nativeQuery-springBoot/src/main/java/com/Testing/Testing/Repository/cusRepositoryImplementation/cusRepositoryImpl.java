@@ -28,4 +28,11 @@ public class cusRepositoryImpl implements cusRepository {
 //        query.getParameter(name);
 //        return true;
 //  }
+    
+//     @Override   ///worked.
+//     public List<Costomer> getCostomerByCity(String city) {
+//         Query query = entityManager.createNativeQuery("SELECT C.* FROM COSTOMER C WHERE C.city = :city", Costomer.class);
+//         query.setParameter("city", city);
+//         return query.getResultList();
+//     }
 }
